@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 Dutch Oven Innovation Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; }
+        .tab-active { border-bottom: 3px solid #6366f1; color: #6366f1; }
+        .animate-fade-in { animation: fadeIn 0.4s ease-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .persona-card:hover { transform: translateY(-4px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-6xl mx-auto">
+        <!-- Header -->
+        <header class="flex flex-col md:flex-row justify-between items-start md:items-center mb-10 gap-4">
+            <div>
+                <h1 class="text-3xl font-bold text-slate-900 tracking-tight">Innovation Strategy & Personas</h1>
+                <p class="text-slate-500 font-medium italic">"Designing for 2026: From Reddit Complaints to Product Solutions"</p>
+            </div>
+            <div class="bg-indigo-600 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg flex items-center gap-2">
+                <i data-lucide="users" class="w-4 h-4"></i>
+                Persona-Driven Design
+            </div>
+        </header>
+
+        <!-- Market Sentiment Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <div class="bg-white p-6 rounded-2xl shadow-sm border-l-4 border-indigo-500">
+                <div class="flex items-center gap-2 mb-2 text-indigo-600 font-bold text-xs uppercase tracking-wider">
+                    <i data-lucide="message-square" class="w-4 h-4"></i> Community Consensus
+                </div>
+                <h3 class="text-lg font-bold text-slate-800">The "BIFL" Paradox</h3>
+                <p class="text-slate-500 text-sm mt-2 leading-relaxed">Users expect "forever pots" but are frustrated by "microscopic spiderwebbing" (crazing) and staining in light interiors like Le Creuset.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border-l-4 border-orange-500">
+                <div class="flex items-center gap-2 mb-2 text-orange-600 font-bold text-xs uppercase tracking-wider">
+                    <i data-lucide="flame" class="w-4 h-4"></i> The Sourdough Shift
+                </div>
+                <h3 class="text-lg font-bold text-slate-800">450°F Fatigue</h3>
+                <p class="text-slate-500 text-sm mt-2 leading-relaxed">Bakers are tired of "circus tricks" to remove hot bread and want dedicated steam-injection and low-profile loading bases.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border-l-4 border-emerald-500">
+                <div class="flex items-center gap-2 mb-2 text-emerald-600 font-bold text-xs uppercase tracking-wider">
+                    <i data-lucide="shield-check" class="w-4 h-4"></i> The Quality Gap
+                </div>
+                <h3 class="text-lg font-bold text-slate-800">Lodge vs. Luxury</h3>
+                <p class="text-slate-500 text-sm mt-2 leading-relaxed">Massive growth in "Premium Value" seekers who want the 5.5-quart performance without the $400 markup or "Chinese factory" concerns.</p>
+            </div>
+        </div>
+
+        <!-- Detailed Persona Deep Dive -->
+        <section class="mb-12">
+            <h2 class="text-xl font-bold text-slate-800 mb-6 flex items-center gap-2">
+                <i data-lucide="fingerprint" class="w-5 h-5 text-indigo-600"></i>
+                Detailed Consumer Personas
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Persona 1 -->
+                <div class="persona-card bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="bg-indigo-50 p-2 rounded-lg text-indigo-600 font-bold">A</div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">The Heirloom Seeker</h4>
+                            <p class="text-[10px] text-indigo-500 font-bold uppercase tracking-widest">Buy It For Life (BIFL)</p>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <span class="text-[10px] font-bold text-slate-400 uppercase">Primary Gripe</span>
+                            <p class="text-sm text-slate-700 font-medium">"My $400 pot stained after making one tomato sauce."</p>
+                        </div>
+                        <div>
+                            <span class="text-[10px] font-bold text-slate-400 uppercase">Key Need</span>
+                            <p class="text-sm text-slate-600">Dark interiors that hide stains but allow fond visibility, and chip-resistant rims.</p>
+                        </div>
+                        <div class="pt-2 border-t border-slate-50">
+                            <span class="text-[10px] font-bold text-indigo-600 uppercase">Target Innovation</span>
+                            <div class="mt-1 px-2 py-1 bg-indigo-50 text-indigo-700 text-xs rounded-md font-bold inline-block">The Vista Hybrid</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Persona 2 -->
+                <div class="persona-card bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="bg-orange-50 p-2 rounded-lg text-orange-600 font-bold">B</div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">The Sourdough Specialist</h4>
+                            <p class="text-[10px] text-orange-500 font-bold uppercase tracking-widest">High-Heat Specialist</p>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <span class="text-[10px] font-bold text-slate-400 uppercase">Primary Gripe</span>
+                            <p class="text-sm text-slate-700 font-medium">"Lowering dough into a deep, 500° pot is a burn risk."</p>
+                        </div>
+                        <div>
+                            <span class="text-[10px] font-bold text-slate-400 uppercase">Key Need</span>
+                            <p class="text-sm text-slate-600">Reversible lids/bases and steam injection for professional crust formation at home.</p>
+                        </div>
+                        <div class="pt-2 border-t border-slate-50">
+                            <span class="text-[10px] font-bold text-orange-600 uppercase">Target Innovation</span>
+                            <div class="mt-1 px-2 py-1 bg-orange-50 text-orange-700 text-xs rounded-md font-bold inline-block">The Vault Modular</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Persona 3 -->
+                <div class="persona-card bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="bg-emerald-50 p-2 rounded-lg text-emerald-600 font-bold">C</div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">The Modern Home Cook</h4>
+                            <p class="text-[10px] text-emerald-500 font-bold uppercase tracking-widest">Ergonomics & Precision</p>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <span class="text-[10px] font-bold text-slate-400 uppercase">Primary Gripe</span>
+                            <p class="text-sm text-slate-700 font-medium">"I can't lift 15lbs of iron when it's filled with stew."</p>
+                        </div>
+                        <div>
+                            <span class="text-[10px] font-bold text-slate-600 uppercase">Key Need</span>
+                            <p class="text-sm text-slate-600">Large, ergonomic "signature" handles and lightweight composite iron cores.</p>
+                        </div>
+                        <div class="pt-2 border-t border-slate-50">
+                            <span class="text-[10px] font-bold text-emerald-600 uppercase">Target Innovation</span>
+                            <div class="mt-1 px-2 py-1 bg-emerald-50 text-emerald-700 text-xs rounded-md font-bold inline-block">The Aura Smart-Probe</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Explorer Section -->
+        <section class="mb-12">
+            <h2 class="text-xl font-bold text-slate-800 mb-6 flex items-center gap-2">
+                <i data-lucide="lightbulb" class="w-5 h-5 text-indigo-600"></i>
+                Innovation Feature Explorer
+            </h2>
+            <div class="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100">
+                <div class="flex bg-slate-50 border-b overflow-x-auto">
+                    <button onclick="switchTab('vista')" id="tab-vista" class="px-8 py-5 text-sm font-bold uppercase tracking-wider tab-active whitespace-nowrap">Vista (BIFL)</button>
+                    <button onclick="switchTab('aura')" id="tab-aura" class="px-8 py-5 text-sm font-bold uppercase tracking-wider text-slate-400 hover:text-slate-600 whitespace-nowrap">Aura (Smart)</button>
+                    <button onclick="switchTab('vault')" id="tab-vault" class="px-8 py-5 text-sm font-bold uppercase tracking-wider text-slate-400 hover:text-slate-600 whitespace-nowrap">Vault (Baking)</button>
+                </div>
+                <div id="content-area" class="p-8 animate-fade-in"></div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        const data = {
+            vista: {
+                title: "The Vista Hybrid",
+                solves: "Staining and Heavy Weight",
+                features: ["Onyx-Lite Interior (Dark yet Reflective)", "40% Lighter Feather-Core", "Anti-Crazing Enamel Formula"],
+                insight: "Directly addresses the Reddit 'Buy It For Life' community's fear of chipping and staining."
+            },
+            aura: {
+                title: "The Aura Smart-Probe",
+                solves: "Guesswork and Boil-Overs",
+                features: ["Bluetooth Lid Sensor", "Auto-Vent Pressure Control", "Haptic Simmer Feedback"],
+                insight: "Designed for 'Ergonomic Home Cooks' who prioritize safety and precision over traditionalism."
+            },
+            vault: {
+                title: "The Vault Modular",
+                solves: "High-Heat Baking Safety",
+                features: ["Shallow-Base 'Skillet' Loading", "Built-in Steam Channel", "Heat-Deflector Shield"],
+                insight: "A specialized tool for the 'Sourdough Specialist' who currently risks burns with deep pots."
+            }
+        };
+
+        function switchTab(id) {
+            document.querySelectorAll('button[id^="tab-"]').forEach(btn => {
+                btn.classList.remove('tab-active', 'text-indigo-600');
+                btn.classList.add('text-slate-400');
+            });
+            document.getElementById(`tab-${id}`).classList.add('tab-active');
+            document.getElementById(`tab-${id}`).classList.remove('text-slate-400');
+
+            const item = data[id];
+            document.getElementById('content-area').innerHTML = `
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-3xl font-bold text-slate-900 mb-2">${item.title}</h3>
+                        <p class="text-indigo-600 font-semibold mb-6 flex items-center gap-2">
+                            <i data-lucide="target" class="w-4 h-4"></i> Solves: ${item.solves}
+                        </p>
+                        <ul class="space-y-3">
+                            ${item.features.map(f => `<li class="flex items-center gap-3 text-slate-600"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-500"></i> ${f}</li>`).join('')}
+                        </ul>
+                    </div>
+                    <div class="bg-indigo-50 p-6 rounded-2xl">
+                        <h4 class="font-bold text-slate-800 mb-2 flex items-center gap-2"><i data-lucide="trending-up" class="w-4 h-4 text-indigo-600"></i> Persona Insight</h4>
+                        <p class="text-slate-600 italic text-sm leading-relaxed">${item.insight}</p>
+                        <div class="mt-4 p-4 bg-white rounded-xl text-xs text-slate-400 font-medium">
+                            * Based on 2026 r/Cooking Sentiment Data
+                        </div>
+                    </div>
+                </div>
+            `;
+            lucide.createIcons();
+        }
+
+        window.onload = () => {
+            switchTab('vista');
+            lucide.createIcons();
+        };
+    </script>
+</body>
+</html>
